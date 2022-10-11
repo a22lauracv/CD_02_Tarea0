@@ -1,1 +1,14 @@
 system.log
+*.log
+?
+#Ignoramos carpetas añadiendo /
+carpeta/
+a[bv]ogado[a-d]
+#abogadoa se va a ignorar
+#avogadob se va a ignorar
+#abogadod1
+a[bv0-1]ogado
+#Directorios anidados
+/a/**/z
+/a/c/z
+
